@@ -8,8 +8,8 @@
     <script type="text/javascript" src="https://cdn.pannellum.org/2.3/pannellum.js"></script>
     <style>
     #panorama {
-        width: 100%;
-        height: 100%;
+        width: 640px;
+        height: 480px;
     }
     </style>
 </head>
@@ -21,7 +21,6 @@ pannellum.viewer('panorama', {
     "type": "equirectangular",
     "autoLoad" : true,
     "setPitch": 0,
-    "setPitchBounds": [-90, 90],
     
     "panorama": "https://s3.amazonaws.com/propr/panoramas/quarterSize/merwinDamArielWA98603-CC.jpg"
 });
