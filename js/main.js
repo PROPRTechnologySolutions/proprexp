@@ -90,7 +90,7 @@
 
     //typed js
     $(".typed").typed({
-        strings: ["We take people places", "We draw maps to new destinations", "We introduce new perspective"],
+        strings: ["We take people places they have never seen. We draw maps to new destinations.", "We build bridges between ideas and technologies.", "We introduce new perspectives.", "Take an unforgettable journey with us.", "" ],
         typeSpeed: 100,
         backDelay: 900,
         // loop

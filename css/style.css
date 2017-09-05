@@ -476,7 +476,7 @@ p {
 
 /*----------------------------------------- 6) Hero --------------------------------------------------*/
 #home {
-  background: url('https://s3.amazonaws.com/propr/panoramas/halfSize/merwinDamArielWA98603-CC.jpg');
+  background: url('../assets/img/multnomahFalls.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
