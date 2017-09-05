@@ -1,5 +1,4 @@
-$.getScript('https://cdn.pannellum.org/2.3/pannellum.js', function() {
-
+var merwinDam=document.getElementById("merwinDam");
 pannellum.viewer('merwinDam', {
     "type": "equirectangular",
     "autoLoad" : true,
@@ -10,5 +9,3 @@ pannellum.viewer('merwinDam', {
     
     "panorama": "https://s3.amazonaws.com/propr/panoramas/halfSize/merwinDamArielWA98603-CC.jpg"
 });
-
-}
