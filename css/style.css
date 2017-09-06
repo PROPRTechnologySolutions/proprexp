@@ -1260,7 +1260,7 @@ ul.portfolio-image li .desc{
 }
 
 #Soda{
-  border: 15px solid #ffc400;
+  border: 15px solid #ffc400;cd 
 }
 
 #demoVideo{
@@ -1281,5 +1281,12 @@ ul.portfolio-image li .desc{
   text-decoration: underline;
   text-decoration-color: lightslategrey;
   text-decoration-style: solid;
-  font-size: 44px;
+  font-size: 30px;
+}
+
+.copyrightDescription{
+  font-family: 'Abel', sans-serif;
+  color: black;
+  font-size: 10px;
+  text-align: right;
 }
