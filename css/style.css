@@ -1,4 +1,15 @@
 /*------------------------------------------------------------*/
+
+.stepFuture{
+  font-family: 'Arizonia', cursive;
+  color: #0377ac;
+  text-decoration: underline;
+  text-decoration-color: lightslategrey;
+  text-decoration-style: solid;
+  font-size: 44px;
+}
+
+
 /*-----------------------------------------1) General--------------------------------------------------*/
 @font-face {
   font-family: 'Glyphter';
