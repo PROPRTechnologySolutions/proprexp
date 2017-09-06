@@ -44,7 +44,7 @@
       <div class="for-sticky">
         <!--LOGO-->
         <div class="col-md-2 col-xs-6 logo">
-          <a href="index.html"><img alt="logo" class="logo-nav" src="logos/proprPlaintext.png"></a>
+          <a href="index.html"><img alt="logo" class="logo-nav" src="logos/proprPlaintext-narrow.png"></a>
         </div>
         <!--/.LOGO END-->
       </div>
@@ -186,37 +186,76 @@
               </h1>
             <div id="container">
               <style>
-                  #merwinDam {
-                      width: 65%;
+                  .portfolioPano-left{
+                      width: 60%;
                       height: 350px;
                       border: 1px solid black;
                       text-align: center;
                       float: left;
-                      left: 5px;
                       margin: 20px;
                   }
-                  #merwinDescription {
+                  .portfolioDesc-right{
                     width: 25%;
                     height: 300px;
                     float: right;
+                    text-align: center;
+                    margin: 20px;
+                  }
+                  .portfolioPano-right{
+                      width: 60%;
+                      height: 350px;
+                      border: 1px solid black;
+                      text-align: center;
+                      float: right;
+                      margin: 20px;
+                  }
+                  .portfolioDesc-left{
+                    width: 25%;
+                    height: 300px;
+                    float: left;
+                    text-align: center;
+                    margin: 20px;
                   }
               </style>
-              <div id="merwinDam"></div>
+              <div class="portfolioPano-left" id="merwinDam"></div>
+              <div class="portfolioDesc-right"><h4>Merwin Dam, Ariel, Washington <br>Date: August 20, 2017</h4></div>
+              <div class="portfolioPano-right" id="percivalLanding"></div>
+              <div class="portfolioDesc-left"><h4>Percival Landing, Olympia, Washington <br>Date: August 23, 2017</h4></div>
+              <div class="portfolioPano-left" id="broadStreet"></div>
+              <div class="portfolioDesc-right"><h4>Liberty Street and Broad Street, Bloomfield, New Jersey <br>Date: September 1, 2017</h4></div>
               <script>
-              pannellum.viewer('merwinDam', {
-                  "type": "equirectangular",
-                  "autoLoad" : true,
-                  "vaov": "135",
-                  "setPitch": "-15",
-                  "maxPitch": "-3",
-                  "autoRotate": "-5",
-                  
-                  "panorama": "https://s3.amazonaws.com/propr/panoramas/halfSize/merwinDamArielWA98603-CC.jpg"
-              });
-              </script>
-              <div id="merwinDescription"><h4>Merwin Dam, Ariel, Washington <br>Date: August something, 2017</h4></div>
-              <div id="percivalLanding"></div>
-              <div id="broadStreet"></div>
+                pannellum.viewer('merwinDam', {
+                    "type": "equirectangular",
+                    "autoLoad" : true,
+                    "vaov": "135",
+                    "setPitch": "-15",
+                    "maxPitch": "-3",
+                    "autoRotate": "-5",
+                    
+                    "panorama": "https://s3.amazonaws.com/propr/panoramas/quarterSize/merwinDamArielWA98603-CC.jpg"
+                }); 
+                pannellum.viewer('percivalLanding', {
+                    "type": "equirectangular",
+                    "autoLoad" : true,
+                    "vaov": "135",
+                    "setPitch": "-15",
+                    "maxPitch": "-3",
+                    "autoRotate": "-5",
+                    
+                    "panorama": "https://s3.amazonaws.com/propr/panoramas/quarterSize/301ColumbiaStreetNWOlympiaWA98501-CC.jpg"
+                });
+
+                pannellum.viewer('broadStreet', {
+                    "type": "equirectangular",
+                    "autoLoad" : true,
+                    "vaov": "135",
+                    "setPitch": "-15",
+                    "maxPitch": "-3",
+                    "autoRotate": "-5",
+                    
+                    "panorama": "https://s3.amazonaws.com/propr/panoramas/quarterSize/BloomfieldAvenue%26LibertyStreetBloomfieldNJ07003-25m-CC.jpg"
+                });
+                </script>
             </div>
           </section>
           <!--/.PORTFOLIO END-->
