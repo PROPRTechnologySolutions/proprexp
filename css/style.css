@@ -451,9 +451,12 @@ p {
   letter-spacing: 0.6px;
 }
 #home .typed {
+  width: 50px;
+  font-family: 'Abel', sans-serif;
+  color: black;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 26px;
+  font-size: 20px;
+  line-height: 40px;
   letter-spacing: 1.5px;
   margin: 0 auto;
   opacity: 0.6;
@@ -1289,4 +1292,11 @@ ul.portfolio-image li .desc{
   color: black;
   font-size: 10px;
   text-align: right;
+}
+
+#mainLogo{
+  position: absolute;
+  width: 300px;
+  top: 100px;
+  left: 60px;
 }
