@@ -1303,3 +1303,36 @@ ul.portfolio-image li .desc{
   top: 100px;
   left: 60px;
 }
+
+/* Portfolio Portion Styling */
+
+.portfolioPano-left{
+  width: 60%;
+  height: 350px;
+  border: 1px solid black;
+  text-align: center;
+  float: left;
+  margin: 20px;
+}
+.portfolioDesc-right{
+width: 25%;
+height: 300px;
+float: right;
+text-align: center;
+margin: 20px;
+}
+.portfolioPano-right{
+  width: 60%;
+  height: 350px;
+  border: 1px solid black;
+  text-align: center;
+  float: right;
+  margin: 20px;
+}
+.portfolioDesc-left{
+width: 25%;
+height: 300px;
+float: left;
+text-align: center;
+margin: 20px;
+}

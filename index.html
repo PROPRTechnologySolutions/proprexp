@@ -190,38 +190,6 @@
                 <span>Portfolio</span>
               </h1>
             <div id="container">
-              <style>
-                  .portfolioPano-left{
-                      width: 60%;
-                      height: 350px;
-                      border: 1px solid black;
-                      text-align: center;
-                      float: left;
-                      margin: 20px;
-                  }
-                  .portfolioDesc-right{
-                    width: 25%;
-                    height: 300px;
-                    float: right;
-                    text-align: center;
-                    margin: 20px;
-                  }
-                  .portfolioPano-right{
-                      width: 60%;
-                      height: 350px;
-                      border: 1px solid black;
-                      text-align: center;
-                      float: right;
-                      margin: 20px;
-                  }
-                  .portfolioDesc-left{
-                    width: 25%;
-                    height: 300px;
-                    float: left;
-                    text-align: center;
-                    margin: 20px;
-                  }
-              </style>
               <div class="portfolioPano-left" id="merwinDam"><div class="copyrightDescription">&copy;  <img src="logos/proprPlaintext-narrow.png" height="12px"> Technology Solutions, 2017.</div></div>
               <div class="portfolioDesc-right"><br><br><br><h4>Merwin Dam, Ariel, Washington <br>Date: August 20, 2017</h4></div>
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d177463.06169900682!2d-122.58820193441561!3d45.974048912000015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5494310710bac379%3A0x4ea89e61edc91a26!2sLake+Merwin!5e0!3m2!1sen!2sus!4v1504679280659" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
@@ -229,61 +197,6 @@
               <div class="portfolioDesc-left"><br><br><br><h4>Percival Landing, Olympia, Washington <br>Date: August 23, 2017</h4></div>
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2718.6636477427255!2d-122.90604384774124!3d47.04683057904935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5491751a344faf8f%3A0xc05edcb46eec4109!2sPercival+Landing+Park!5e0!3m2!1sen!2sus!4v1504679741268" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
               <div class="portfolioPano-left" id="broadStreet"><div class="copyrightDescription">&copy;  <img src="logos/proprPlaintext-narrow.png" height="12px"> Technology Solutions, 2017.</div></div>
-              <script>
-                pannellum.viewer('merwinDam', {
-                    "type": "equirectangular",
-                    "autoLoad" : true,
-                    "vaov": "140",
-                    "setPitch": "-40",
-                    "maxPitch": "-5",
-                    "autoRotate": "-5",
-                    
-                    "autoRotateInactivityDelay": "1000",
-                    "hfov": "70",
-                    
-                    "compass": true,
-                    "maxLevel": "9",
-                    "minLevel": "0",
-
-
-                    "panorama": "https://s3.amazonaws.com/propr/panoramas/quarterSize/merwinDamArielWA98603-CC.jpg"
-                }); 
-                pannellum.viewer('percivalLanding', {
-                    "type": "equirectangular",
-                    "autoLoad" : true,
-                    "vaov": "140",
-                    "setPitch": "-40",
-                    "maxPitch": "-5",
-                    "autoRotate": "-5",
-                    
-                    "autoRotateInactivityDelay": "1000",
-                    "hfov": "70",
-                    
-                    "compass": true,
-                    "maxLevel": "9",
-                    "minLevel": "0",
-                    
-                    "panorama": "https://s3.amazonaws.com/propr/panoramas/quarterSize/301ColumbiaStreetNWOlympiaWA98501-CC.jpg"
-                });
-
-                pannellum.viewer('broadStreet', {
-                    "type": "equirectangular",
-                    "autoLoad" : true,
-                    "vaov": "140",
-                    "setPitch": "-40",
-                    "maxPitch": "-5",
-                    "autoRotate": "-5",
-                    
-                    "autoRotateInactivityDelay": "1000",
-                    "hfov": "70",
-                    
-                    "compass": true,
-                    "maxLevel": "9",
-                    "minLevel": "0",
-
-                    "panorama": "https://s3.amazonaws.com/propr/panoramas/quarterSize/BroadStreet%26LibertyStreetBloomfieldNJ07003-25m-CC.jpg"
-                });
-                </script>
               <div class="portfolioDesc-right"><br><br><br><h4>Liberty Street and Broad Street, Bloomfield, New Jersey <br>Date: September 1, 2017</h4></div>
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3020.471869796412!2d-74.19963344782644!3d40.79562347922171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2553cd62f1c93%3A0x48aaa66e589d598c!2sBroad+St+%26+Liberty+St%2C+Bloomfield%2C+NJ+07003!5e0!3m2!1sen!2sus!4v1504679881811" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
@@ -1290,5 +1203,6 @@
        })();
     </script>
     <script src="js/email.js" type="text/javascript"></script>
+    <script src="js/panorama.js" type="text/javascript"></script>
   </body>
 </html>
