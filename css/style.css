@@ -1314,7 +1314,6 @@ ul.portfolio-image li .desc{
 }
 
 .descriptiveAdditions{
-  font-family: 'Arizonia', cursive;
   color: black;
   text-align: center;
   bottom: 25px;
@@ -1324,4 +1323,13 @@ ul.portfolio-image li .desc{
 .skillLogo{
   height: 25px;
   width: auto;
+}
+
+#littleCornerLogo{
+  position: relative;
+  left: 10px;
+  top: 2.5px;
+  bottom: 2.5px;
+  width: 5px;
+  height: 5px;
 }
